@@ -1,0 +1,4 @@
+select customerid from orders;
+select customers.name as 'Customers' from customers  where customers.id not in(select customerid from orders);
+ SELECT Name as Customers from Customers LEFT JOIN Orders ON Customers.Id = Orders.CustomerId  WHERE Orders.CustomerId IS NULL;
+select Name as Customers from customers c where not exists (select * from Orders o where o.CustomerId=c.id)
