@@ -1,0 +1,27 @@
+public class PrintAsciiValueExample1   
+{  
+public static void main(String[] args)   
+{ 
+char ch1 = 'y';  
+char ch2 = 'a';
+char ch3 = 'z'; 
+char ch4 = 'h'; 
+char ch5 = 'i';
+char ch6 = 'n';
+char ch7 = 'i';  
+int asciivalue1 = ch1;  
+int asciivalue2 = ch2;
+int asciivalue1 = ch3;  
+int asciivalue2 = ch4; 
+int asciivalue1 = ch5;  
+int asciivalue2 = ch6; 
+int asciivalue1 = ch7;
+System.out.println("The ASCII value of " + ch1 + " is: " + asciivalue1);  
+System.out.println("The ASCII value of " + ch2 + " is: " + asciivalue2);
+System.out.println("The ASCII value of " + ch3 + " is: " + asciivalue3);  
+System.out.println("The ASCII value of " + ch4 + " is: " + asciivalue4);
+System.out.println("The ASCII value of " + ch5 + " is: " + asciivalue5);  
+System.out.println("The ASCII value of " + ch6 + " is: " + asciivalue6);
+System.out.println("The ASCII value of " + ch7+ " is: " + asciivalue7);
+}  
+}  
